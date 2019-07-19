@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
 @media only screen and (min-width : 992px) {
     header, main, footer, nav {
         padding-left: 300px;
@@ -38,18 +42,18 @@ header h5 {
     margin-top: 14px;
 }
 
-/* @media only screen and (max-width : 992px) {
+@media only screen and (max-width : 992px) {
     #sidenav-trigger-b {
         visibility: visible;
     }
-} */
+}
 @media only screen and (min-width : 992px) {
     #sidenav-trigger-b {
         visibility: hidden;
     }
 }
 
-#download-button, #upgrade-button {
+#d-button {
     background-color: #6e80bd;
     width: 260px;
     height: 70px;
@@ -100,4 +104,12 @@ header h5 {
     padding-right: 10px;
     line-height: 66px;
     height: 100%;
+}
+
+.w400 {
+    width: 400px;
+}
+
+.ib {
+    display: inline-block;
 }
