@@ -154,3 +154,7 @@ footer{
 .wrapper {
     overflow-x: scroll;
 }
+
+.drag-target {
+    width: 20px;
+}
