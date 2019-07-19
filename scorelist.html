@@ -46,7 +46,7 @@
         <div class="contents">
             <h1>Score List</h1>
             <script> // #DEBUG
-            document.write(data.map(entry => entry.name + ": " + entry.score + "<br />").join(""));
+            document.write(data.map(function (entry) {return entry.name + ": " + entry.score + "<br />";}).join(""));
             </script>
         </div>
 
