@@ -106,10 +106,18 @@ header h5 {
     height: 100%;
 }
 
+.w350 {
+    width: 350px;
+}
+
 .w400 {
     width: 400px;
 }
 
 .ib {
     display: inline-block;
+}
+
+.wrapper {
+    overflow: scroll;
 }
