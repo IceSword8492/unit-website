@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
     if (document.getElementById("scoreboard"))
     {
         const table = document.getElementById("scoreboard");
-        table.innerHTML += data.map(function (entry) {
-            return "<tr><td>" + entry.name + "</td><td>" + entry.score + "</td></tr>";
+        table.innerHTML += data.map(function (entry, index) {
+            return "<tr><td>" + (!index ? "👑 " : "") + entry.name + "</td><td>" + entry.score + "</td></tr>";
         }).join("\n");
     }
 });
