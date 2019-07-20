@@ -158,3 +158,13 @@ footer{
 .drag-target {
     width: 20px;
 }
+
+.sidenav .collapsible>.active .collapsible-header .chevron {
+    transition: all 300ms 0s ease;
+    transform: rotate(-90deg);
+}
+
+.sidenav .collapsible .collapsible-header .chevron {
+    transition: all 300ms 0s ease;
+    transform: rotate(0deg);
+}
