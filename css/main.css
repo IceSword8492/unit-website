@@ -159,12 +159,26 @@ footer{
     width: 20px;
 }
 
-.sidenav .collapsible>.active .collapsible-header .chevron {
+.sidenav .collapsible>.active .collapsible-header img {
     transition: all 300ms 0s ease;
-    transform: rotate(-90deg);
+    transform: translate(140px, 35%) rotate(-90deg);
+    width: 25px;
+    height: auto;
 }
 
-.sidenav .collapsible .collapsible-header .chevron {
+.sidenav .collapsible .collapsible-header img {
     transition: all 300ms 0s ease;
-    transform: rotate(0deg);
+    transform: translate(140px, 35%) rotate(0deg);
+    width: 25px;
+    height: auto;
+}
+
+.pis32 {
+    padding-inline-start: 32px !important;
+    -webkit-padding-start: 32px !important;
+}
+
+.pis48 {
+    padding-inline-start: 48px !important;
+    -webkit-padding-start: 48px !important;
 }
