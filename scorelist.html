@@ -45,9 +45,15 @@
         <!-- contents -->
         <div class="contents">
             <h1>Score List</h1>
-            <script> // #DEBUG
-            document.write(data.map(function (entry) {return entry.name + ": " + entry.score + "<br />";}).join(""));
-            </script>
+            <div class="wrapper">
+                <div class="w_350 ib">
+                    <table id="scorelist" class="w100p">
+                            <tr>
+                                <th>Name</th><th>Score</th>
+                            </tr>
+                    </table>
+                </div>
+            </div>
         </div>
 
         <!-- footer -->
