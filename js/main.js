@@ -11,6 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
     dev.textContent = "開発中";
     document.body.appendChild(dev);
 
+    importer.import("./js/component.js", function () {
+        let copyrightElement = new ComponentElement("copyright", null, "© 2019 sharo, group 13.");
+        copyrightElement.compile();
+    });
+
     (function () {
         var elems = document.querySelectorAll('.sidenav');
         var instances = M.Sidenav.init(elems, {});
