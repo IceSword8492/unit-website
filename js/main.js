@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     dev.style.position = "fixed";
     dev.style.left = "1%";
     dev.style.top = "50%";
-    dev.style.zIndex = 2;
+    dev.style.zIndex = 9999;
     dev.style.pointerEvents = "none";
     dev.style.fontSize = "5rem";
     dev.textContent = "開発中";
