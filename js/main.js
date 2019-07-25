@@ -1,15 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
     // DEV
-    let dev = document.createElement("div");
-    dev.style.color = "rgba(255, 0, 0, .3)";
-    dev.style.position = "fixed";
-    dev.style.left = "1%";
-    dev.style.top = "50%";
-    dev.style.zIndex = 9999;
-    dev.style.pointerEvents = "none";
-    dev.style.fontSize = "5rem";
-    dev.textContent = "開発中";
-    document.body.appendChild(dev);
+    // let dev = document.createElement("div");
+    // dev.style.color = "rgba(255, 0, 0, .3)";
+    // dev.style.position = "fixed";
+    // dev.style.left = "1%";
+    // dev.style.top = "50%";
+    // dev.style.zIndex = 9999;
+    // dev.style.pointerEvents = "none";
+    // dev.style.fontSize = "5rem";
+    // dev.textContent = "開発中";
+    // document.body.appendChild(dev);
 
     importer.import("./js/component.js", function () {
         let copyrightElement = new ComponentElement("copyright", null, "© 2019 sharo, group 13.");
