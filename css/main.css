@@ -183,12 +183,12 @@ footer{
     -webkit-padding-start: 48px !important;
 }
 .bullet {
+    display: list-item;
+    display: inside;
     list-style: disc;
     text-align: left;
     margin-left: 35%;
     margin-right: 33%;
     width: 100%;
-}
-.bullet-line {
     line-height: 300%;
 }
